@@ -1,0 +1,20 @@
+<!DOCTYPEhtml>
+<html>
+ <head>
+  <title> Peso En Otro Planeta </title>
+ </head>
+ <body>
+  <h1> tu peso en un lugar donde pesas menos </h1>
+  <script>
+   var tierra = 9.8;
+   var marte = 3.7;
+   var jupiter = 24.8;
+   var pesousuario = prompt("cual es tu peso?");
+   var peso = parseFloat(pesousuario);
+   var pesofinal;
+   pesofinal = peso * marte / tierra;
+   pesofinal = parseInt (pesofinal);
+   document.write("tu peso en marte es: <strong> " + pesofinal + " kilos </strong>");
+  </script>
+ </body>
+</html>
